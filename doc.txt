@@ -1,0 +1,32 @@
+
+1 Danh sách model
+    - Quản lý người dùng
+        
+    - Quản lý nhóm người dùng
+
+    - Quản lý bài viết
+
+
+2 Phân quyền
+
+    2.1 Model bài viết
+    - Tạo 1 nhóm người dùng => Phân quyền cho nhóm
+    - Thêm user thì sẽ quyền trong nhóm đó
+    
+    Các quyền 
+        - Thêm
+        - Xem
+        - Sửa (Bài viết của ai sửa của người đó)
+        - Xoá (Bài viết của ai thì xoá của người đó)
+    
+    2.2 Model nhóm người dùng
+        - Xem danh sách nhóm
+        - Sửa nhóm
+        - Thêm nhóm
+        - Xoá nhóm
+
+    2.3 Model người dùng
+        - Xem danh sách nhóm
+        - Sửa nhóm
+        - Thêm nhóm
+        - Xoá nhóm
